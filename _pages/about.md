@@ -8,10 +8,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>M.S. Information Management - Data Science</p>
-    <p>B.A. Mathematics</p>
+    <p>&#x1F393; M.S. Information Management - Data Science</p>
+    <p>&#x1F393; B.A. Mathematics</p>
     <p>&#x1F4CD; Seattle, WA</p>
-    :email:<p>alanamontoya3@gmail.com</p>
+    <p>&#x1F4E7; alanamontoya3@gmail.com</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
