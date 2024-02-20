@@ -10,7 +10,7 @@ profile:
   more_info: >
     <p>M.S. Information Management - Data Science</p>
     <p>B.A. Mathematics</p>
-    :round_pushpin:<p>Seattle, WA</p>
+    <p>&#x1F4CD; Seattle, WA</p>
     :email:<p>alanamontoya3@gmail.com</p>
 
 news: false # includes a list of news items
