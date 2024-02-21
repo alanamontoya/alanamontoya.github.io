@@ -8,7 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>&#x1F393; M.S. Information Management - Data Science</p>
+    <p>&#x1F393; M.S. Data Science - Information Management</p>
     <p>&#x1F393; B.A. Mathematics</p>
     <p>&#x1F4CD; Seattle, WA</p>
     <p>&#x1F4E7; alanamontoya3@gmail.com</p>
@@ -19,8 +19,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a results-driven data scientist with a passion for solving complex problems using data insights. Whether it's developing predictive models or conducting sentiment analysis on social media data, I am dedicated to delivering insights that drive business impact.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My approach to data science is rooted in a combination of technical expertise and strategic thinking. I utilize a range of tools and techniques, including Python, R, SQL, Tableau, and Power BI, to extract insights from data and communicate those insights to stakeholders in a clear and actionable way.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+As a data scientist, I am constantly looking for ways to grow and develop my skills. I am excited to take on more responsibility and leadership roles and am committed to developing innovative solutions that push the boundaries of what is possible with data.
