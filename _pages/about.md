@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Alana Montoya
+title: about
 permalink: /
 
 profile:
