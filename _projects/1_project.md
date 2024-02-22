@@ -8,18 +8,31 @@ category: work
 related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Summary:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- Accessed Twitter’s API to download tweets.
+- Derived the sentiments (attitudes or perceptions) of tweets using Finn Arup Nielsen’s list of words rated for valence in python.
+- Computed the sentiment of new terms that did NOT exist in Finn Arup Nielsen’s list of words rated for valence by computing the average sentiment scores of the tweets that contained the new words.
+- Analyzed the relationship between location and mood from tweet sentiments.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+#### Files:
+
+- output_copy_3.txt:
+  - The processed Twitter data downloaded from the live Twitter stream using the development API.
+- tweet_sentiment.py:
+  - A script that computes the sentiment of each tweet based on the sentiment scores of the terms in the tweet. The sentiment of a tweet is equivalent to the sum of the sentiment scores for each term in the tweet. Each word or phrase that is found in a tweet but not found in AFINN-111.txt is given a sentiment score of 0.
+- AFINN-111.txt:
+  - A list of pre-computed sentiment scores. Each line in the file contains a word or phrase followed by a sentiment score. This file is used to compute the tweet sentiments in tweet_sentiment.py.
+- term_sentiment.py:
+  - A script that computes the sentiment for the terms that do not appear in the file AFINN-111.txt.
+- term_sentiment_output.txt:
+  - The output of term_sentiment.py. This is needed to run the happiest_state.py file.
+- frequency.py:
+  - A script that computes the term frequency histogram of the livestream data harvested. The frequency of a term is calculated as [# of occurrences of the term in all tweets]/[# of occurrences of all terms in all tweets].
+- happiest_state.py:
+  - A script that computes the happiest state. The script returns the two-letter state abbreviation of the state with the highest average tweet sentiment.
+- top_ten.py:
+  - A script that computes the ten most frequently occurring hashtags in the downloaded tweets.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
