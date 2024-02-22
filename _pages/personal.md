@@ -2,11 +2,38 @@
 layout: page
 permalink: /personal/
 title: personal
-description: #Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+# Travel
 
-Organize your courses by years, topics, or universities, however you like!
+I love to travel. Here's a glimpse into some of my recent adventures!
+
+### Australia
+
+###### Sydney
+
+###### Melbourne
+
+###### Port Douglas (Great Barrier Reef) 
+
+### Germany
+
+###### Munich
+
+###### Neuschwanstein
+
+###### Linderhof Palace
+
+### The Netherlands
+
+##### Amsterdam
+
+##### Maastrict
+
+# Art
+
+I enjoy drawing. Enjoy some of the...
+
