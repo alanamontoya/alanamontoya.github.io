@@ -2,7 +2,7 @@
 layout: page
 title: Healthcare PII Redaction
 description: 
-img: assets/img/slide_1.jpg
+img: assets/img/figure_2.jpg
 importance: 3
 ---
 
