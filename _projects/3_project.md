@@ -8,7 +8,7 @@ importance: 3
 
 I presented an overview of the findings from a journal article titled “A Comparative Analysis of Speed and Accuracy for Three Off-the-Shelf De-Identification Tools” by Paul M. Heider, PhD, Jihad S. Obeid, MD, and Stéphane M. Meystre, MD, PhD. The detailed article can be found here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7233098/.
 
-## Motivation
+### Motivation
 
 There exists a significant amount of health data stored in Electronic Health Records which contain free-text sections about patients and their treatments. Although this free text data could be very useful for research purposes, the nature of this data contains sensitive patient information, or PII. The challenge is then how to share this data with the research community without compromising patient confidentiality and privacy rights.
 
@@ -16,7 +16,7 @@ While there has been efforts to automate the process of removing PII, there is a
 
 {% include figure.liquid loading="eager" path="assets/img/slide_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
-## Methods
+### Methods
 
 The process began by identifying which annotations should be used to assess each of the system’s accuracy from. The authors considered HIPAA’s Privacy Rule “Safe Harbor” method which consists of eighteen categories of PII that the de-identification system would need to target. However, since the three systems were not all designed to address all PII categories, the categories were divided into two sets: shared categories that all three systems targeted and specialty categories which only two of the systems targeted. Accuracy was determined for both individual PII categories as well as PII as a whole, that is, a system could wrongly identify the PII category but would still count as true positive for identifying that it was PII.
 
@@ -26,17 +26,17 @@ Both corpora were processed as plain text files with one note per file and all t
 
 {% include figure.liquid loading="eager" path="assets/img/slide_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
-## The text de-identification systems
+### The text de-identification systems
 
-##### Amazon Comprehend Medical PHId
+###### _Amazon Comprehend Medical PHId_
 
 Amazon Comprehend Medical is a cloud-based natural language processing system. For this system, the focus centered around detecting the phi service endpoint, which can be run using API calls or remotely on an AWS instance. To test the system, they used a simple Python script to read in a note, post it to the service endpoint, and then convert the returned output to the brat standoff format.
 
-##### Clinacuity’s CliniDeID
+###### _Clinacuity’s CliniDeID_
 
 Clinacuity’s CliniDeID offers multiple levels of de-identification, so the ‘Beyond HIPAA Safe Harbor’ level was selected because it better aligned with the PII categories of the other systems. The on-premises version can use a graphical user-interface or the command-line, though in the paper the command line was used. Testing was done using a special testing license.
 
-##### The National Library of Medicine’s (NLM) Scrubber
+###### _The National Library of Medicine’s (NLM) Scrubber_
 
 The National Library of Medicine’s Scrubber. This system is also on-premises and can be used through either a graphical user-interface or the command-line. This system outputs a redacted version of the original note. However, since the other systems output annotated offsets or the reference corpus, they needed to write a script to map the NLM Scrubber’s output file to the annotation format by lining up the preceding and following context around all bracketed redacted forms.
 
@@ -44,7 +44,7 @@ To generate accuracy metrics for the systems, the authors used ETUDE (Evaluation
 
 {% include figure.liquid loading="eager" path="assets/img/slide_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
-## Results
+### Results
 
 The National Library of Medicine’s Scrubber was by far the fastest. It was about twice as fast at processing ten thousand characters as compared to Amazon Comprehend and about 14 times faster than CliniDeID. The NLM Scrubber was also much better at processing more characters per second as compared to the two other systems. But the NLM Scrubber failed to process four notes which was due to non-ASCII characters being present. Amazon Comprehend also did not process thirty-five notes, which ended up being the thirty-five longest notes, so this could be an opportunity for this system to improve its timing.
 
