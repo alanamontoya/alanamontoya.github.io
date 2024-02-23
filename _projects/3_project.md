@@ -8,3 +8,4 @@ importance: 3
 
 add script adaptation with slides
 
+make note about research paper this was based on
