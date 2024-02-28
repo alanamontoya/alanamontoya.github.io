@@ -22,13 +22,13 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "University of Washington, Department of Global Health",
+      "position": "Data Science Researcher",
+      "startDate": "2023-03",
+      "endDate": "present",
+      "summary": "- Implementing the PageRank algorithm using Python, effectively analyzing Twitter interactions of sodium-related tweets across 83 key stakeholders in strategic action fields for public policy to identify 33 influential stakeholders in the network.
+- Designing comprehensive data solutions leveraging Python for top stakeholder influence analysis, resulting in increased insights into the overall and annual dissemination of dietary information on social media platforms.
+- Collaborating with global health, machine learning (ML), and artificial intelligence (AI) experts to co-author peer-reviewed research paper, contributing novel findings published in the Journal of Medical Internet Research on policy dissemination."
     }
   ],
   "volunteer": [
