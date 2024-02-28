@@ -26,18 +26,14 @@
       "position": "Data Science Researcher",
       "startDate": "2023-03",
       "endDate": "present",
-      "summary": "- Implementing the PageRank algorithm using Python, effectively analyzing Twitter interactions of sodium-related tweets across 83 key stakeholders in strategic action fields for public policy to identify 33 influential stakeholders in the network.
-- Designing comprehensive data solutions leveraging Python for top stakeholder influence analysis, resulting in increased insights into the overall and annual dissemination of dietary information on social media platforms.
-- Collaborating with global health, machine learning (ML), and artificial intelligence (AI) experts to co-author peer-reviewed research paper, contributing novel findings published in the Journal of Medical Internet Research on policy dissemination."
+      "summary": "Implementing the PageRank algorithm using Python, effectively analyzing Twitter interactions of sodium-related tweets across 83 key stakeholders in strategic action fields for public policy to identify 33 influential stakeholders in the network. Designing comprehensive data solutions leveraging Python for top stakeholder influence analysis, resulting in increased insights into the overall and annual dissemination of dietary information on social media platforms. Collaborating with global health, machine learning (ML), and artificial intelligence (AI) experts to co-author peer-reviewed research paper, contributing novel findings published in the Journal of Medical Internet Research on policy dissemination."
     },
     {
       "name": "Washington Technology Solutions (WaTech)",
       "position": "Data Scientist (Capstone)",
       "startDate": "2023-01",
       "endDate": "2023-06",
-      "summary": "- Streamlined a user-driven tagging protocol for the Washington State Open Data Catalog, an open data portal for the State of Washington, optimizing dataset searchability and data quality to increase inter-organizational data sharing and user growth.
-- Leveraged the tag management protocol to achieve a 40% reduction in tags, enhancing data organization, improving searchability, and ensuring consistent and reliable access to data.
-- Designed and implemented a comprehensive tag monitoring system using Power BI, providing real-time monitoring to reduce tag change response time and enhance data usability and quality.
+      "summary": "Streamlined a user-driven tagging protocol for the Washington State Open Data Catalog, an open data portal for the State of Washington, optimizing dataset searchability and data quality to increase inter-organizational data sharing and user growth. Leveraged the tag management protocol to achieve a 40% reduction in tags, enhancing data organization, improving searchability, and ensuring consistent and reliable access to data. Designed and implemented a comprehensive tag monitoring system using Power BI, providing real-time monitoring to reduce tag change response time and enhance data usability and quality.
 "
     },
     {
@@ -45,8 +41,7 @@
       "position": "Data Science Graduate Reader/Grader",
       "startDate": "2023-01",
       "endDate": "2023-03",
-      "summary": "- Reviewed and graded assignments for the third graduate data science course in a three-course series, assessing students’ performance on scaling massive data, specialized techniques for text and image applications, and ethics and responsibility.
-- Proactively provided constructive and timely feedback to students, facilitating continuous student growth and improvement.
+      "summary": "Reviewed and graded assignments for the third graduate data science course in a three-course series, assessing students’ performance on scaling massive data, specialized techniques for text and image applications, and ethics and responsibility. Proactively provided constructive and timely feedback to students, facilitating continuous student growth and improvement.
 "
     },
     {
@@ -54,8 +49,7 @@
       "position": "Data Analyst Intern",
       "startDate": "2022-06",
       "endDate": "2022-09",
-      "summary": "- Statistically analyzed customer data, identifying high-risk customers with past due balances, optimizing business performance through proactive risk mitigation.
-- Developed self-service Power BI dashboards of global commerce data, leveraging real-time metrics for tracking case closures and resolution times to increase the Customer Success Team's efficiency, accountability, and customer satisfaction.
+      "summary": "Statistically analyzed customer data, identifying high-risk customers with past due balances, optimizing business performance through proactive risk mitigation. Developed self-service Power BI dashboards of global commerce data, leveraging real-time metrics for tracking case closures and resolution times to increase the Customer Success Team's efficiency, accountability, and customer satisfaction.
 "
     }
   ],
