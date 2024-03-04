@@ -3,7 +3,7 @@ layout: page
 permalink: /personal/
 title: personal
 description:
-nav: true
+nav: false
 nav_order: 3
 ---
 
