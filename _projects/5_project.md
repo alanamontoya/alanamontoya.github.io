@@ -2,7 +2,7 @@
 layout: page
 title: Starbuck Database
 description: 
-img: 
+img: assets/img/starbucks_logo.jpg
 importance: 5
 ---
 
